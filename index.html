@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Form</title>
+  </head>
+  <body>
+    <h1>See form below</h1>
+  <form method="GET" action="/">
+    <label>
+      Username
+      <input type="text" name="username" />
+    </label>
+
+    <label>
+      Password
+      <input type="password"  name="user-password" />
+    </label>
+
+    <p>Choose a color set</p>
+    <label>
+      Color 1
+      <input
+        type="radio"
+        value="color-1"
+        name="color" />
+    </label>
+
+    <label>
+      Color 2
+      <input
+        type="radio"
+        value="color-2"
+      name="color" />
+    </label>
+    <label>
+      Color 3
+      <input
+        value="color-3"
+        type="radio"
+      name="color" />
+    </label>
+
+    <label>
+      Select your state
+      <select name="state">
+        <option value="MO">Missouri</option>
+        <option value="KS">Kansas</option>
+        <option value="IA">Iowa</option>
+        <option value="IL">Illinois</option>
+      </select>
+    </label>
+    <button type="submit">Save</button>
+  </form>
+</body>
+</html>
